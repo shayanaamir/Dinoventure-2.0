@@ -23,7 +23,7 @@ int main(int argc, char* argv[])
     // that the game runs in a loop and handling all game updates
     // and renderes
     game = new Game();
-    game->init("Chapter 1", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 640, 480, 0);
+    game->init("Chapter 1", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 640, 0);
 
     // Main game loop handles all Game events and Updates the Screen
     while(game->running())
