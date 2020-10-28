@@ -42,7 +42,7 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height, in
     {
         isRunning = false;
     }
-    Player = new GameObject("assets/small_image.jpeg", 0, 0, 5);
+    Player = new GameObject("assets/dinoL.png", 0, 0, 5);
     map = new Map();
 
     // ppp = TextureManager::LoadTexture("assets/small_image.jpeg", renderer);
