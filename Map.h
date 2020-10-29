@@ -12,8 +12,9 @@ public:
 
 private:
     SDL_Rect src, dest;
-    SDL_Texture *path;
-    SDL_Texture *path1;    
+
+    // Initializing all variables for pictures
+    SDL_Texture *path;   
     SDL_Texture *cupcake;
     SDL_Texture *motel;
     SDL_Texture *tree;
@@ -27,7 +28,13 @@ private:
     SDL_Texture *b3;
     SDL_Texture *b4;
     SDL_Texture *Fwheel;
-    SDL_Texture *water;
+    SDL_Texture *grass;
+    SDL_Texture *path2;
+    SDL_Texture *grass2;
+    SDL_Texture *grass3;
+    SDL_Texture *field;
+    SDL_Texture *water;    
+    SDL_Texture *hen;    
 
-    int map[16][20];
+    int map[16][20]; // initializing a 2d array with 16 rows and 20 columns
 };
