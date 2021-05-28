@@ -36,5 +36,5 @@ private:
     SDL_Texture *water;    
     SDL_Texture *hen;    
 
-    int map[16][20]; // initializing a 2d array with 16 rows and 20 columns
+    int map[16][20]; // initializing a 2d array with 16 rows and 20 columns, holds the map
 };
